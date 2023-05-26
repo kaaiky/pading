@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: #fcf7d1;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.conteudo-principal-escrito-titulo-logo{
+    font-family: 'Courier New', Courier, monospace;
+    color: #17181f;
+    font-size: 20px;
+}
+.img-cabecalho{
+    height: 20px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'Courier New', Courier, monospace;
+    color: #17181f;
+    font-weight: 400px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.cabecalho-menu-item:hover{
+    background-color: #ddcaa2;  
+}
+.conteudo{
+    border-top: 0.4px solid;
+    color: black;
+    margin-bottom: 48px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200px;
+    font-size: 64px;
+    color: black;
+}
+.conteudo-principal-imagem{
+    height: 250px;
+}
+.conteudo-secundario{
+    border-top: 0.5px solid #564145;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+.conteudo-secundario-titulo{
+    padding-top: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    color: black;
+}
+.rodape{
+    border-top: 0.5px solid #564145;
+   
+}
+.rodape-texto{
+    font-family: 'Courier New', Courier, monospace;
+    color: #17181f;
+    font-size: 20px;
+   text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.botao{
+    background-color: #ecd6c4;
+    width: 110px;
+    height: 40px;
+    left: 5px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
+    color: black;
+}
+.botao:hover{
+    background-color: #ddcaa2;
+}
